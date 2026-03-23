@@ -381,7 +381,7 @@ const Index = () => {
               </h1>
             </div>
             <img
-              src="https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/a722301c-03c8-4bfc-8548-8b1ba726793b.jpg"
+              src="https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/4b8593ee-a3fe-48a3-9f2a-10e507090684.jpg"
               alt="Десерты"
               className="w-24 h-24 md:w-28 md:h-28 object-cover rounded-sm"
             />
@@ -423,8 +423,10 @@ const Index = () => {
           <img
             src={
               activeTab === "cakes"
-                ? "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/a722301c-03c8-4bfc-8548-8b1ba726793b.jpg"
-                : "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/df27d460-bb75-4446-99f0-f56c269c0eb6.jpg"
+                ? "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/4b8593ee-a3fe-48a3-9f2a-10e507090684.jpg"
+                : activeTab === "rolls"
+                ? "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/e5b7ad2e-7210-4dba-8924-cd5bf2f6a558.jpg"
+                : "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/5d3af464-533d-4913-a26d-6f5ad30762e4.jpg"
             }
             alt={activeTab === "cakes" ? "Торты" : activeTab === "rolls" ? "Рулеты" : "Чизкейки"}
             className="w-full h-44 md:h-60 object-cover rounded-sm"
