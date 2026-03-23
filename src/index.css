@@ -4,6 +4,14 @@
 
 @layer base {
   :root {
+    --clr-bg: #faf9f7;
+    --clr-text: #1a1714;
+    --clr-muted: #9e9790;
+    --clr-accent: #8b6f47;
+    --clr-line: #e8e4de;
+    --clr-card: #f3f0eb;
+    --clr-tag-bg: #fdf8f2;
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
