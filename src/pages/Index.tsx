@@ -388,7 +388,12 @@ const Index = () => {
                 Прайс-лист
               </h1>
             </div>
-
+            <img
+              src="https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/bucket/bf73dd05-3ac8-4e9a-ba24-5e538416b81e.jpg"
+              alt="Аничкины торты"
+              className="w-28 h-28 md:w-32 md:h-32 object-cover rounded-full"
+              style={{ filter: "invert(1)", mixBlendMode: "screen" }}
+            />
           </div>
 
           {/* Tabs */}
