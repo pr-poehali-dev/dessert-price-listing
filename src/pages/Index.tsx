@@ -231,7 +231,7 @@ const Index = () => {
             <img
               src="https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/a722301c-03c8-4bfc-8548-8b1ba726793b.jpg"
               alt="Десерты"
-              className="w-24 h-24 md:w-28 md:h-28 object-cover rounded-sm grayscale opacity-70"
+              className="w-24 h-24 md:w-28 md:h-28 object-cover rounded-sm"
             />
           </div>
 
@@ -272,7 +272,7 @@ const Index = () => {
                 : "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/df27d460-bb75-4446-99f0-f56c269c0eb6.jpg"
             }
             alt={activeTab === "cakes" ? "Торты" : "Пирожные"}
-            className="w-full h-44 md:h-60 object-cover rounded-sm grayscale opacity-70"
+            className="w-full h-44 md:h-60 object-cover rounded-sm"
           />
         </div>
 
