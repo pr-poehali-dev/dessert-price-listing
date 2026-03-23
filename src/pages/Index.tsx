@@ -374,10 +374,10 @@ const Index = () => {
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
             <div>
               <p className="font-golos text-xs tracking-[0.35em] uppercase text-[var(--clr-muted)] mb-3">
-                Кондитерская
+                Аничкины торты
               </p>
               <h1 className="font-cormorant text-5xl md:text-6xl font-light text-[var(--clr-text)] leading-none">
-                Десерты
+                Прайс-лист
               </h1>
             </div>
             <img
