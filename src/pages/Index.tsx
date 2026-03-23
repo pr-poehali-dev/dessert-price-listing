@@ -438,8 +438,21 @@ const Index = () => {
           ))}
         </div>
 
+        {/* Order button */}
+        <div className="mt-10">
+          <a
+            href="https://vk.com/id399308893"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-3 w-full py-4 bg-[var(--clr-text)] text-[var(--clr-bg)] font-golos text-sm tracking-wide rounded-sm hover:opacity-80 transition-opacity duration-200"
+          >
+            <Icon name="Send" size={16} />
+            Заказать ВКонтакте
+          </a>
+        </div>
+
         {/* Hint */}
-        <div className="mt-10 pt-8 border-t border-[var(--clr-line)] flex items-start gap-3">
+        <div className="mt-6 pt-6 border-t border-[var(--clr-line)] flex items-start gap-3">
           <Icon name="Info" size={14} className="text-[var(--clr-muted)] mt-0.5 shrink-0" />
           <p className="font-golos text-xs text-[var(--clr-muted)] leading-relaxed">
             Нажмите на позицию, чтобы увидеть состав и аллергены. Все изделия
