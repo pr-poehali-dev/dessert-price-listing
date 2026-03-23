@@ -441,15 +441,24 @@ const Index = () => {
         </div>
 
         {/* Order button */}
-        <div className="mt-10">
+        <div className="mt-10 flex flex-col sm:flex-row gap-3">
           <a
             href="https://vk.com/id399308893"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-3 w-full py-4 bg-[var(--clr-text)] text-[var(--clr-bg)] font-golos text-sm tracking-wide rounded-sm hover:opacity-80 transition-opacity duration-200"
+            className="flex items-center justify-center gap-3 flex-1 py-4 bg-[var(--clr-text)] text-[var(--clr-bg)] font-golos text-sm tracking-wide rounded-sm hover:opacity-80 transition-opacity duration-200"
           >
             <Icon name="Send" size={16} />
             Заказать ВКонтакте
+          </a>
+          <a
+            href="https://vk.com/ani_cake"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-3 flex-1 py-4 border border-[var(--clr-text)] text-[var(--clr-text)] font-golos text-sm tracking-wide rounded-sm hover:bg-[var(--clr-card)] transition-colors duration-200"
+          >
+            <Icon name="Images" size={16} />
+            Посмотреть работы
           </a>
         </div>
 
