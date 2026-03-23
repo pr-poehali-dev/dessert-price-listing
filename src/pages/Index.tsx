@@ -144,71 +144,138 @@ const cakes = [
   },
 ];
 
-const pastries = [
+const rolls = [
   {
     id: 1,
-    name: "Эклер шоколадный",
-    weight: "80 г",
-    price: 280,
-    tag: "Хит",
-    description: "Классический французский эклер с шоколадным кремом",
-    composition:
-      "Мука, вода, сливочное масло, яйца, соль, сахар, молоко, тёмный шоколад 70%, сливки 33%, желтки",
-    allergens: "Глютен, молоко, яйца",
+    name: "Медовый с орехами",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Бисквитные коржи, сметанный крем, грецкий орех",
+    composition: "Бисквитные коржи, сметанный крем, грецкий орех",
+    allergens: "Глютен, молоко, яйца, орехи (грецкий)",
   },
   {
     id: 2,
-    name: "Макарон малина",
-    weight: "25 г",
-    price: 180,
+    name: "Шоколадный с вишней",
+    weight: "",
+    price: 0,
     tag: "",
-    description: "Воздушные миндальные меренги с малиновым ганашем",
-    composition:
-      "Миндальная мука, сахарная пудра, белки яичные, сахар, малиновое пюре, белый шоколад, краситель натуральный",
-    allergens: "Яйца, орехи (миндаль)",
+    description: "Шоколадный бисквитный корж, сливочный крем, вишнёвый конфитюр",
+    composition: "Шоколадный бисквитный корж, сливочный крем, конфитюр вишнёвый",
+    allergens: "Глютен, молоко, яйца",
   },
   {
     id: 3,
-    name: "Тарталетка ягодная",
-    weight: "90 г",
-    price: 320,
+    name: "Красный бархат",
+    weight: "",
+    price: 0,
     tag: "",
-    description: "Песочная тарталетка с ванильным кремом и свежими ягодами",
-    composition:
-      "Мука, сливочное масло, сахарная пудра, яйца, молоко, ванильный стручок, желтки, крахмал, сезонные ягоды",
+    description: "Нежные коржи, крем чиз, конфитюр из брусники, малины и вишни",
+    composition: "Коржи красный бархат, крем чиз, конфитюр брусника / малина / вишня",
     allergens: "Глютен, молоко, яйца",
   },
   {
     id: 4,
-    name: "Шу с карамелью",
-    weight: "70 г",
-    price: 260,
-    tag: "Новинка",
-    description: "Профитроль с солёной карамелью и хрустящим крокантом",
-    composition:
-      "Мука, вода, масло сливочное, яйца, сливки 33%, сахар, соль морская, миндаль, глюкозный сироп",
-    allergens: "Глютен, молоко, яйца, орехи (миндаль)",
+    name: "Меренговый",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Меренга, сливочный крем, начинка: клубника, малина, апельсин",
+    composition: "Меренга, сливочный крем, клубника, малина, апельсин",
+    allergens: "Глютен, молоко, яйца",
   },
   {
     id: 5,
-    name: "Канеле бордоский",
-    weight: "60 г",
-    price: 220,
+    name: "Рафаэлло",
+    weight: "",
+    price: 0,
     tag: "",
-    description: "Французская выпечка с ванилью и ромом",
-    composition:
-      "Молоко, мука, яйца, желтки, сахар, масло сливочное, ваниль натуральная, ром тёмный, пчелиный воск",
+    description: "Бисквитные кокосовые коржи, заварной крем, кокосовая стружка",
+    composition: "Бисквитные кокосовые коржи, заварной крем, кокосовая стружка",
+    allergens: "Глютен, молоко, яйца",
+  },
+];
+
+const cheesecakes = [
+  {
+    id: 1,
+    name: "Клубничный",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Песочная основа на натуральном масле, сливочно-творожная масса с ванилином, слой из спелой клубники с лимонным соком",
+    composition: "Песочное тесто, сливочный сыр, сливки высокой жирности, ванилин, клубника, сахар, лимонный сок",
+    allergens: "Глютен, молоко, яйца",
+  },
+  {
+    id: 2,
+    name: "Твикс",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Песочные коржи, карамельный мусс, шоколадный ганаш",
+    composition: "Песочные коржи, карамельный мусс, шоколадный ганаш",
+    allergens: "Глютен, молоко, яйца",
+  },
+  {
+    id: 3,
+    name: "Брусничный",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Песочный корж, творожный мусс, натуральная брусника",
+    composition: "Песочный корж, творожный мусс, брусника натуральная",
+    allergens: "Глютен, молоко, яйца",
+  },
+  {
+    id: 4,
+    name: "Сникерс",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Песочный корж, мусс из сырной массы, солёная карамель, арахис",
+    composition: "Песочный корж, мусс сырный, солёная карамель, арахис",
+    allergens: "Глютен, молоко, яйца, арахис",
+  },
+  {
+    id: 5,
+    name: "Банан-киви",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Песочная основа, сырная масса, натуральные банан и киви",
+    composition: "Песочная основа, сырная масса, банан, киви",
     allergens: "Глютен, молоко, яйца",
   },
   {
     id: 6,
-    name: "Мильфёй",
-    weight: "100 г",
-    price: 350,
+    name: "Апельсиново-йогуртовый",
+    weight: "",
+    price: 0,
     tag: "",
-    description: "Слоёное тесто с дипломатным кремом и клубникой",
-    composition:
-      "Мука, масло сливочное, вода, уксус, соль, молоко, желтки, сахар, крахмал, сливки 33%, ваниль, клубника",
+    description: "Основа из бисквитной крошки, сырная масса с апельсином, семена чиа с йогуртом",
+    composition: "Бисквитная крошка, сырная масса, апельсин, семена чиа, йогурт",
+    allergens: "Глютен, молоко, яйца",
+  },
+  {
+    id: 7,
+    name: "Сметанный с малиной",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Бисквитная крошка, сметана, малина",
+    composition: "Бисквитная крошка, сметана, малина",
+    allergens: "Глютен, молоко, яйца",
+  },
+  {
+    id: 8,
+    name: "Сметанный с клубникой",
+    weight: "",
+    price: 0,
+    tag: "",
+    description: "Бисквитная крошка, сметана, клубника",
+    composition: "Бисквитная крошка, сметана, клубника",
     allergens: "Глютен, молоко, яйца",
   },
 ];
@@ -296,8 +363,8 @@ function DessertCard({ item }: { item: Item }) {
 }
 
 const Index = () => {
-  const [activeTab, setActiveTab] = useState<"cakes" | "pastries">("cakes");
-  const items = activeTab === "cakes" ? cakes : pastries;
+  const [activeTab, setActiveTab] = useState<"cakes" | "rolls" | "cheesecakes">("cakes");
+  const items = activeTab === "cakes" ? cakes : activeTab === "rolls" ? rolls : cheesecakes;
 
   return (
     <div className="min-h-screen bg-[var(--clr-bg)]">
@@ -322,26 +389,19 @@ const Index = () => {
 
           {/* Tabs */}
           <div className="flex mt-8 border border-[var(--clr-line)] rounded-sm w-fit overflow-hidden">
-            <button
-              onClick={() => setActiveTab("cakes")}
-              className={`font-golos text-sm px-7 py-2.5 tracking-wide transition-all duration-200 ${
-                activeTab === "cakes"
-                  ? "bg-[var(--clr-text)] text-[var(--clr-bg)]"
-                  : "text-[var(--clr-muted)] hover:text-[var(--clr-text)]"
-              }`}
-            >
-              Торты
-            </button>
-            <button
-              onClick={() => setActiveTab("pastries")}
-              className={`font-golos text-sm px-7 py-2.5 tracking-wide transition-all duration-200 border-l border-[var(--clr-line)] ${
-                activeTab === "pastries"
-                  ? "bg-[var(--clr-text)] text-[var(--clr-bg)]"
-                  : "text-[var(--clr-muted)] hover:text-[var(--clr-text)]"
-              }`}
-            >
-              Пирожные
-            </button>
+            {(["cakes", "rolls", "cheesecakes"] as const).map((tab, i) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`font-golos text-sm px-6 py-2.5 tracking-wide transition-all duration-200 ${i > 0 ? "border-l border-[var(--clr-line)]" : ""} ${
+                  activeTab === tab
+                    ? "bg-[var(--clr-text)] text-[var(--clr-bg)]"
+                    : "text-[var(--clr-muted)] hover:text-[var(--clr-text)]"
+                }`}
+              >
+                {tab === "cakes" ? "Торты" : tab === "rolls" ? "Рулеты" : "Чизкейки"}
+              </button>
+            ))}
           </div>
         </div>
       </header>
@@ -366,7 +426,7 @@ const Index = () => {
                 ? "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/a722301c-03c8-4bfc-8548-8b1ba726793b.jpg"
                 : "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/df27d460-bb75-4446-99f0-f56c269c0eb6.jpg"
             }
-            alt={activeTab === "cakes" ? "Торты" : "Пирожные"}
+            alt={activeTab === "cakes" ? "Торты" : activeTab === "rolls" ? "Рулеты" : "Чизкейки"}
             className="w-full h-44 md:h-60 object-cover rounded-sm"
           />
         </div>
