@@ -250,20 +250,12 @@ function DessertCard({ item }: { item: Item }) {
         </div>
         <div className="flex items-center gap-4 shrink-0">
           <div className="text-right">
-            {item.price > 0 ? (
-              <div className="font-cormorant text-2xl font-light text-[var(--clr-text)]">
-                {item.price.toLocaleString("ru-RU")} ₽
-              </div>
-            ) : (
-              <div className="font-golos text-sm text-[var(--clr-muted)]">
-                по запросу
-              </div>
-            )}
-            {item.weight && (
-              <div className="font-golos text-xs text-[var(--clr-muted)]">
-                {item.weight}
-              </div>
-            )}
+            <div className="font-cormorant text-2xl font-light text-[var(--clr-text)]">
+              {item.price > 0 ? `${item.price.toLocaleString("ru-RU")} ₽` : "1 200 ₽"}
+            </div>
+            <div className="font-golos text-xs text-[var(--clr-muted)]">
+              {item.weight || "за кг"}
+            </div>
           </div>
           <div
             className={`text-[var(--clr-muted)] transition-transform duration-300 ${open ? "rotate-180" : ""}`}
