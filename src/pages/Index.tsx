@@ -348,6 +348,16 @@ const Index = () => {
 
       {/* Content */}
       <main className="max-w-3xl mx-auto px-6 pb-16">
+        {/* Min order notice */}
+        {activeTab === "cakes" && (
+          <div className="mt-8 flex items-center gap-3 bg-[var(--clr-card)] border border-[var(--clr-line)] rounded-sm px-5 py-3.5">
+            <Icon name="Scale" size={15} className="text-[var(--clr-accent)] shrink-0" />
+            <p className="font-golos text-sm text-[var(--clr-text)]">
+              Минимальный заказ торта — <span className="font-medium">1,5 кг</span>
+            </p>
+          </div>
+        )}
+
         {/* Banner image */}
         <div className="py-8 border-b border-[var(--clr-line)]">
           <img
