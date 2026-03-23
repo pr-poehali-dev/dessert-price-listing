@@ -388,11 +388,7 @@ const Index = () => {
                 Прайс-лист
               </h1>
             </div>
-            <img
-              src="https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/4b8593ee-a3fe-48a3-9f2a-10e507090684.jpg"
-              alt="Десерты"
-              className="w-24 h-24 md:w-28 md:h-28 object-cover rounded-sm"
-            />
+
           </div>
 
           {/* Tabs */}
