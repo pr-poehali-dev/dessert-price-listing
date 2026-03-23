@@ -367,18 +367,18 @@ const Index = () => {
   const items = activeTab === "cakes" ? cakes : activeTab === "rolls" ? rolls : cheesecakes;
 
   return (
-    <div className="min-h-screen bg-[var(--clr-bg)]">
+    <div className="min-h-screen bg-[var(--clr-bg)] relative">
+      <div
+        className="fixed inset-0 bg-cover bg-center pointer-events-none"
+        style={{
+          backgroundImage: "url('https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/bucket/2ac0b54c-7990-410d-94fd-3fda37d01e6a.jpg')",
+          opacity: 0.1,
+          zIndex: 0,
+        }}
+      />
       {/* Header */}
-      <header className="border-b border-[var(--clr-line)] relative overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage: "url('https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/bucket/2ac0b54c-7990-410d-94fd-3fda37d01e6a.jpg')",
-            opacity: 0.18,
-          }}
-        />
-        <div className="absolute inset-0 bg-[var(--clr-bg)]" style={{ opacity: 0.55 }} />
-        <div className="max-w-3xl mx-auto px-6 py-10 relative z-10">
+      <header className="border-b border-[var(--clr-line)] relative z-10">
+        <div className="max-w-3xl mx-auto px-6 py-10">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
             <div>
               <p className="font-golos text-xs tracking-[0.35em] uppercase text-[var(--clr-muted)] mb-3">
@@ -415,7 +415,7 @@ const Index = () => {
       </header>
 
       {/* Content */}
-      <main className="max-w-3xl mx-auto px-6 pb-16">
+      <main className="max-w-3xl mx-auto px-6 pb-16 relative z-10">
         {/* Min order notice */}
         {activeTab === "cakes" && (
           <div className="mt-8 flex items-center gap-3 bg-[var(--clr-card)] border border-[#74070E] rounded-sm px-5 py-3.5">
