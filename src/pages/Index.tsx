@@ -423,10 +423,10 @@ const Index = () => {
           <img
             src={
               activeTab === "cakes"
-                ? "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/4b8593ee-a3fe-48a3-9f2a-10e507090684.jpg"
+                ? "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/7da88d29-7b98-44a4-b268-71925e80a3aa.jpg"
                 : activeTab === "rolls"
-                ? "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/e5b7ad2e-7210-4dba-8924-cd5bf2f6a558.jpg"
-                : "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/5d3af464-533d-4913-a26d-6f5ad30762e4.jpg"
+                ? "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/2af965ea-c088-447e-b3f5-78ecfeec820a.jpg"
+                : "https://cdn.poehali.dev/projects/ef8e6c50-a814-4c92-8e49-5ae4c2affacb/files/af79ecf5-6d31-45d4-942b-73f58ef4bf7b.jpg"
             }
             alt={activeTab === "cakes" ? "Торты" : activeTab === "rolls" ? "Рулеты" : "Чизкейки"}
             className="w-full h-44 md:h-60 object-cover rounded-sm"
